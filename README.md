@@ -48,6 +48,9 @@ source cnn/bin/activate  # On Windows: cnn\Scripts\activate
 
 # Install dependencies
 pip install torch torchvision numpy matplotlib pillow pandas scikit-learn tqdm
+
+# If you have problems with ssl (MacOS) use this:
+/Applications/Python\ 3.11/Install\ Certificates.command
 ```
 
 ## Usage
